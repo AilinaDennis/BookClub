@@ -17,7 +17,7 @@
         </div>
 
     </nav>
-    <form action = "/update/book/{{edit.id}}" method="post" class="col-11 p-4 my-4 bg-dark text-light mx-auto">
+    <form action = "/update/book/{{edit.id}}" method="post" class="card col-10 mx-auto my-5 bg-dark text-light">
         <h2 class="text-primary">Edit Book</h2>
         {% with messages = get_flashed_messages(category_filter=['book']) %}
             {% if messages %}
